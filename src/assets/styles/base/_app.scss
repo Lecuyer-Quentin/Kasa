@@ -1,0 +1,28 @@
+
+.App{
+    width: 98%;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-family: "Montserrat";
+    display: flex;
+    padding: 1.25rem 0rem 0rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    
+    & img{
+        object-fit: cover;
+        object-position: center;
+    }
+    & a {
+        text-decoration: none; 
+    }
+    & li{
+        list-style: none;
+    }
+    
+};
+
+    

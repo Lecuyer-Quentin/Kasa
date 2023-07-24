@@ -1,0 +1,47 @@
+@keyframes rotateDropDown {
+    0% {
+      transform: rotateX(-90deg)
+    }
+    70% {
+      transform: rotateX(20deg)
+    }
+    100% {
+      transform: rotateX(0deg)
+    }
+}
+
+@keyframes logo {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+@keyframes loader {
+    99% {opacity: 0;}
+    100% {display: none; z-index: -1;}
+} 
+
+// Loader Logo animation
+@-webkit-keyframes animate-svg-fill{
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: $primary-color;
+  }
+}
+
+@keyframes animate-svg-fill{
+  0% {
+    fill: transparent;
+  }
+
+  100% {
+    fill: $primary-color;
+  }
+}

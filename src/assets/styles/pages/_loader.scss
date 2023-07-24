@@ -1,0 +1,47 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $secondary-color;
+    animation: loader .9s ease-in-out 3.2s forwards;
+}
+
+.logo{
+    position: fixed;
+    top: 40%;
+    animation: logo .9s ease 3s forwards;  
+}
+
+/**********************
+ * Logo Animation *
+ *********************/
+.svg-elem-1 {
+  -webkit-animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s both;
+          animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s both;
+}
+
+.svg-elem-2 {
+  -webkit-animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s both;
+          animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s both;
+}
+
+.svg-elem-3 {
+  -webkit-animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
+          animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.6s both;
+}
+
+.svg-elem-4 {
+  -webkit-animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.7s both;
+          animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.7s both;
+}
+
+.svg-elem-5 {
+  -webkit-animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
+          animation: animate-svg-fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s both;
+}
