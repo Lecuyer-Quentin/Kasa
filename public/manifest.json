@@ -1,0 +1,32 @@
+{
+  "short_name": "Kasa",
+  "name": "Kasa",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "theme_color": "#FF6060",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "description": "Page d'accueil",
+      "url": "../src/Routes/Home?source=pwa"
+    },
+    {
+      "name": "A propos",
+      "description": "En savoir plus sur Kasa",
+      "url": "../src/Routes/APropos?source=pwa"
+    },
+    {
+      "name": "Logement",
+      "description": "Découvrez nos logements",
+      "url": "../src/Routes/Logement?source=pwa"
+    },
+    {
+      "name": "ErrorPage",
+      "description": "Page d'erreur",
+      "url": "../src/Routes/ErrorPage?source=pwa"
+    }
+  ]
+}
